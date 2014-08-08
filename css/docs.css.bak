@@ -1,0 +1,182 @@
+#panel .navbar {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    font-size: 13px;
+}
+#panel a {
+    color: #999999;
+}
+#panel a:hover {
+    color: #FFFFFF;
+}
+#panel .navbar .brand {
+    color: #000000;
+    float: right;
+    font-weight: bold;
+    margin-left: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 0 30px rgba(255, 255, 255, 0.125);
+    transition: all 0.2s linear 0s;
+}
+#panel .navbar .brand:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 0 30px rgba(255, 255, 255, 0.4);
+}
+#advanced span.trigger {
+    background: url("../img/tm/pro_button.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    cursor: pointer;
+    display: block;
+    height: 42px;
+    position: absolute;
+    right: 0;
+    top: 41px;
+    width: 42px;
+}
+#advanced span.trigger strong {
+    background: url("../img/tm/plus-minus.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    bottom: 24px;
+    display: block;
+    height: 11px;
+    opacity: 0;
+    position: absolute;
+    right: 7px;
+    width: 11px;
+}
+#advanced.closed span.trigger strong {
+    opacity: 1;
+}
+#advanced span.trigger em {
+    background: url("../img/tm/plus-minus.png") no-repeat scroll -11px 0 rgba(0, 0, 0, 0);
+    bottom: 24px;
+    display: block;
+    height: 11px;
+    position: absolute;
+    right: 7px;
+    width: 11px;
+}
+#panel li {
+    line-height: 20px;
+}
+#panel .dropdown {
+    position: relative;
+}
+#panel #advanced {
+    position: relative;
+}
+#panel .dropdown-toggle {
+}
+#panel .dropdown-toggle:active, #panel .open .dropdown-toggle {
+    outline: 0 none;
+}
+#panel .caret {
+    border-left: 4px solid rgba(0, 0, 0, 0);
+    border-right: 4px solid rgba(0, 0, 0, 0);
+    border-top: 4px solid #000000;
+    content: "";
+    display: inline-block;
+    height: 0;
+    vertical-align: top;
+    width: 0;
+}
+#panel .dropdown .caret {
+    margin-left: 2px;
+    margin-top: 8px;
+}
+#panel .dropdown-menu {
+    background-clip: padding-box;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    display: none;
+    float: left;
+    left: 0;
+    list-style: none outside none;
+    margin: 2px 0 0;
+    min-width: 160px;
+    padding: 5px 0;
+    position: absolute;
+    top: 100%;
+    z-index: 1000;
+}
+#panel .dropdown-menu .divider {
+    background-color: #E5E5E5;
+    border-bottom: 1px solid #FFFFFF;
+    height: 1px;
+    margin: 9px 1px;
+    overflow: hidden;
+}
+#panel .dropdown-menu a {
+    clear: both;
+    color: #333333;
+    display: block;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 3px 20px;
+    white-space: nowrap;
+}
+#panel .dropdown-menu li a {
+    padding-left: 15px;
+}
+#panel .dropdown-menu ul {
+    margin-left: 40px;
+}
+#panel .dropdown-menu ul li a {
+    padding-left: 5px;
+}
+#advanced .dropdown-menu li li a {
+}
+#panel .dropdown-menu li > a:hover, #panel .dropdown-menu li > a:focus, #panel .dropdown-submenu:hover > a {
+    background-color: #0081C2;
+    background-image: linear-gradient(to bottom, #0088CC, #0077B3);
+    background-repeat: repeat-x;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#panel .dropdown-menu .active > a, #panel .dropdown-menu .active > a:hover {
+    background-color: #0081C2;
+    background-image: -moz-linear-gradient(center top , #0088CC, #0077B3);
+    background-repeat: repeat-x;
+    color: #FFFFFF;
+    outline: 0 none;
+    text-decoration: none;
+}
+#panel .dropdown-menu .disabled > a, #panel .dropdown-menu .disabled > a:hover {
+    color: #999999;
+}
+#panel .dropdown-menu .disabled > a:hover {
+    background-color: rgba(0, 0, 0, 0);
+    cursor: default;
+    text-decoration: none;
+}
+#panel .open {
+}
+#panel .open > .dropdown-menu {
+    display: block;
+}
+#panel .pull-right > .dropdown-menu {
+    left: auto;
+    right: 0;
+}
+#panel .dropup .caret, #panel .navbar-fixed-bottom .dropdown .caret {
+    border-bottom: 4px solid #000000;
+    border-top: 0 none;
+    content: "?";
+}
+#panel .dropup .dropdown-menu, #panel .navbar-fixed-bottom .dropdown .dropdown-menu {
+    bottom: 100%;
+    margin-bottom: 1px;
+    top: auto;
+}
+#panel .navbar-inverse .nav li.dropdown > .dropdown-toggle .caret {
+    border-bottom-color: #999999;
+    border-top-color: #999999;
+}
+#panel .navbar-inverse .nav li.dropdown.open > .dropdown-toggle .caret, #panel .navbar-inverse .nav li.dropdown.active > .dropdown-toggle .caret, #panel .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle .caret {
+    border-bottom-color: #FFFFFF;
+    border-top-color: #FFFFFF;
+}
+#panel .navbar .nav > li > a {
+    padding: 10px 15px;
+}
